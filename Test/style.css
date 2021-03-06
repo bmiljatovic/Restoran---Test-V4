@@ -172,7 +172,7 @@ hgroup {
 
 hgroup p {
     margin: 30px auto;
-    line-height: 30px;
+    line-height: 59px;
     background: var(--primary);
     align-items: center;
 }
@@ -11865,6 +11865,7 @@ li[data-type=control_fileupload] .qq-upload-button:before {
         height: 4px;
         background-color: var(--light);
         transition: all 0.8s;
+        border-radius: 25%;
 
     }
 
@@ -11882,7 +11883,7 @@ li[data-type=control_fileupload] .qq-upload-button:before {
 
     .navbar {
         width: 100%;
-        height: 255px;
+        height: 287px;
         background-color: var(--primary);
         position: fixed;
         top: 0;
