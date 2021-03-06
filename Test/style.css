@@ -5435,8 +5435,8 @@ li[data-type=control_inline] {
 body {
     font-family: Inter, sans-serif;
     font-size: 16px;
-    background-color: #ecedf3;
-    color: #2c3345
+    background-color: var(--secondary);;
+    color: var(--primary);
 }
 
 .form-all {
