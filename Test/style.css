@@ -55,15 +55,23 @@ h6 {
 
 .btn {
     text-transform: uppercase;
-    padding: 20px 55px;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    font-weight: 500;
+   
+    font-size: 16px;
+    
     background-color: var(--primary);
     border: 2px solid var(--primary);
+    cursor: pointer;
+    font-weight: 500;
     color: var(--light);
     cursor: pointer;
     font-family: var(--font-family-roboto);
+    border-radius: 30px;
+    width: auto;
+    min-width: 180px;
+    justify-content: center;
+    height: 3em;
+    outline: 0;
+    margin-left: 10px;
 }
 
 .btn:focus {
@@ -796,8 +804,23 @@ p.meta {
 }
 
 .single .btn {
-    margin: 30px auto 0 auto;
-    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--light);
+    cursor: pointer;
+    font-family: var(--font-family-roboto);
+    border-radius: 30px;
+    width: auto;
+    max-width: 180px;
+    justify-content: center;
+    height: 3em;
+    outline: 0;
+    margin-left: 10px;
+    
 }
 
 
@@ -820,7 +843,7 @@ p.meta {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*    overflow-y: hidden;*/
+    overflow-y: hidden;
     height: 90vh;
 }
 
@@ -828,7 +851,7 @@ p.meta {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*    align-items: center;*/
+    align-items: center;
     padding: 50px;
     background: var(--light);
 }
@@ -869,8 +892,7 @@ p.meta {
 
 .daily .btn {
     margin-top: 30px;
-    font-size: 1.3rem;
-}
+    }
 
 /*-------- Footer --------*/
 
@@ -967,172 +989,6 @@ footer p.copy {
     padding: 30px;
 }
 
-/*---------- Order Here ---------*/
-.order-here {
-
-    background-color: var(--light);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    bottom: 0px;
-    height: 58vh;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-}
-
-
-.order-here .headline {
-    width: 90%;
-    margin: 30px auto 30px auto;
-    overflow: hidden;
-}
-
-.order-here .headline h3 {
-    display: block;
-    font-size: 3.4rem;
-    color: var(--primary);
-}
-
-.order-here a {
-    text-decoration: none;
-    color: var(--primary);
-    font-size: 1.2rem;
-    font-weight: 500;
-    display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 50%;
-    background-color: var(--secondary);
-    /* border: 2px solid var(--primary); */
-    margin-left: auto;
-    margin-top: 50px;
-    margin-right: 20px;
-    transition: 0.3s all ease-in-out;
-}
-
-.order-here a:hover {
-    background-color: var(--light);
-    color: var(--primary);
-    border: 1px solid var(--primary);
-}
-
-.order-here form {
-    padding: 0 0 30px 0;
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-.order-here form input {
-    flex: 0 0 45%;
-    margin-bottom: 20px;
-    background-color: var(--primary);
-    background-color: var(--light);
-    /* border-top: none;
-    border-right: none;
-    border-left: none;*/
-    border: 1px solid var(--primary);
-    color: var(--primary);
-    font-size: 1rem;
-    padding: 5px 10px;
-}
-
-.order-here form textarea {
-    flex: 0 0 100%;
-
-    border: 1px solid var(--primary);
-    color: var(--primary);
-    font-size: 1rem;
-    padding: 10px;
-}
-
-.order-here form textarea::placeholder {
-    font-family: var(--font-family);
-}
-
-.order-here form input::placeholder {
-    font-family: var(--font-family);
-}
-
-.order-here form .btn {
-    border: 2px solid var(--btn-hover);
-    display: block;
-    margin: 20px auto 0 auto;
-    font-family: var(--font-family-roboto);
-    font-size: 1.3rem;
-
-}
-
-}
-
-.order-here form .btn:hover {
-    text-decoration: none;
-    color: var(--light);
-    background: var(--btn-hover);
-    transition: 0.3s ease;
-    border: 2px solid var(--btn-hover);
-}
-
-.order-here input:focus {
-    outline: none;
-}
-
-.order-here textarea:focus {
-    outline: none;
-}
-
-.about-order {
-    background-color: var(--secondary);
-}
-
-.about-order .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.about-order .container .row article {
-    flex: 0 0 48%;
-    padding: 30px;
-}
-
-.about-order .food {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-order .time {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-order .reserve {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-order .download {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .appointmentCalendar {
     box-shadow: none !important
@@ -5437,7 +5293,7 @@ li[data-type=control_inline] {
 
 
 body {
-    font-family: Inter, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     background-color: var(--secondary);;
     color: var(--primary);
@@ -5801,9 +5657,7 @@ li[data-type=control_datetime] .extended > .form-sub-label-container:nth-child(3
 .form-submit-button-carbon.submit-button {
     color: var(--light);
     
-    /*border: 1px solid #212325;*/
-    /*box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .2), 0 1px 2px 0 rgba(0, 0, 0, .44);*/
-    /*background: linear-gradient(0deg, #44494c 0, #2a2e30)*/
+    
 }
 
 .form-submit-button-carbon.form-pagebreak-back:hover,
@@ -5815,7 +5669,7 @@ li[data-type=control_datetime] .extended > .form-sub-label-container:nth-child(3
 .form-submit-button-carbon.form-pagebreak-back:active,
 .form-submit-button-carbon.form-pagebreak-next:active,
 .form-submit-button-carbon.submit-button:active {
-   /* box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .2);*/
+   
     background: linear-gradient(0deg, #16181a 0, #323639)
 }
 
@@ -5823,24 +5677,22 @@ li[data-type=control_datetime] .extended > .form-sub-label-container:nth-child(3
 .form-submit-button-carbon_rounded.form-pagebreak-next,
 .form-submit-button-carbon_rounded.submit-button {
     color: var(--light);
-    /*text-shadow: -1px -1px 0 #0b0b0d;*/
-    /*border: 1px solid #212325;*/
-    /*box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .2), 0 1px 2px 0 rgba(0, 0, 0, .44);*/
-    background: var(--primary); /*linear-gradient(0deg, #44494c 0, #2a2e30);*/
+    
+    background: var(--primary); 
     border-radius: 30px
 }
 
 .form-submit-button-carbon_rounded.form-pagebreak-back:hover,
 .form-submit-button-carbon_rounded.form-pagebreak-next:hover,
 .form-submit-button-carbon_rounded.submit-button:hover {
-    background: var(--btn-hover); /*linear-gradient(0deg, var(--primary) 0,var(--btn-hover);*/
+    background: var(--btn-hover); 
 }
 
 .form-submit-button-carbon_rounded.form-pagebreak-back:active,
 .form-submit-button-carbon_rounded.form-pagebreak-next:active,
 .form-submit-button-carbon_rounded.submit-button:active {
-    /*box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .2);*/
-    background: var(--btn-hover);/*linear-gradient(0deg, #16181a 0, #323639)*/
+    
+    background: var(--btn-hover);
 }
 
 
@@ -8632,8 +8484,7 @@ iframe[data-client-id="5295b800485bd19f5d000005"] {
 }
 
 .form-line[data-payment="true"] .form-product-item .form-product-container > span {
-    /* display: flex; */
-    /* align-items: flex-start; */
+   
 }
 
 .form-line[data-payment="true"] .form-product-item .form-product-container .form-product-name {
@@ -11692,12 +11543,7 @@ li[data-type=control_fileupload] .qq-upload-button:before {
 
 /*-------- media screen and max-width: 1343px --------*/
 @media screen and (max-width: 1343px) {
-    .btn {
-        padding: 10px 45px;
-        border-radius: 50px;
-        text-transform: uppercase;
-        font-size: 1rem;
-    }
+   
 
     header {
         padding: 40px 0 0 0;
@@ -11838,7 +11684,7 @@ li[data-type=control_fileupload] .qq-upload-button:before {
 
     .daily .btn {
         margin-top: 10px;
-        font-size: 1rem;
+        
     }
 
     .logo {
@@ -11925,7 +11771,6 @@ li[data-type=control_fileupload] .qq-upload-button:before {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
         padding: 32px;
         background: var(--light);
     }
@@ -11961,13 +11806,7 @@ li[data-type=control_fileupload] .qq-upload-button:before {
 
 /*-------- media screen and max-width: 689px --------*/
 @media (max-width: 689px) {
-    .btn {
-        padding: 10px 45px;
-        border-radius: 50px;
-        text-transform: uppercase;
-        font-size: 1rem;
-    }
-
+    
     .daily .dailyDescription {
         display: flex;
         flex-direction: column;
@@ -12023,14 +11862,8 @@ li[data-type=control_fileupload] .qq-upload-button:before {
     .blog .text {
         padding: 30px;
     }
-
-    .btn {
-        padding: 15px 50px;
-        font-size: 1.2rem;
-        display: block;
-        margin: 0 auto;
-    }
-
+    
+   
     .order article {
         flex: 0 0 100%;
         text-align: center;
